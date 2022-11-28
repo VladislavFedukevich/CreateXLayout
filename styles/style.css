@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato';
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(/fonts/Lato-Bold.ttf) format(truetype)
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(/fonts/Lato-Regular.ttf) format(truetype);
+}
+
+.wrapper-header {
+  background: linear-gradient( #ff403a50 100%, #f75e05a8 100%);
+}
+
+#logo {
+  width: 130px;
+  height: 22px;
+  background: url(/assets/logo.png);
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  width: auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 700 16px 'Lato';
+}
+
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav ul li {
+  list-style: none;
+}
+
+.header-nav ul li:not(:last-child) {
+  margin: 0 40px 0 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 386px;
+}
+
+.buttons div:not(:last-child) {
+  margin: 0 36px 0 0;
+}
+
+.btn-consultation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 256px;
+  height: 52px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  border-radius: 4px;
+  color: white;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: space-between;
+  width: 144px;
+}
+
+.text-header {
+  padding: 120px 0 120px 0;
+}
+
+.text-header h1 {
+  font: 900 46px 'Lato';
+  width: 1020px;
+  margin: auto;
+  text-align: center;
+}
+
+.text-header p{
+  font: 700 16px 'Lato';
+  color: #FF3F3A;
+  text-align: center;
+  text-transform: uppercase;
+}
