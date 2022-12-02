@@ -17,6 +17,9 @@
 }
 
 .wrapper-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   background: linear-gradient( #ff403a50 100%, #f75e05a8 100%);
 }
 
@@ -27,16 +30,13 @@
 }
 
 body {
+  width: 1200px;
   margin: 0 auto;
-}
-
-header {
-  width: auto;
 }
 
 .header-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font: 700 16px 'Lato';
 }
